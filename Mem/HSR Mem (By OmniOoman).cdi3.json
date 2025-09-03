@@ -1,0 +1,412 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup",
+			"Name": "Tail Size"
+		},
+		{
+			"Id": "Param21",
+			"GroupId": "ParamGroup",
+			"Name": "Tail Angle"
+		},
+		{
+			"Id": "Param20",
+			"GroupId": "ParamGroup",
+			"Name": "Float Toggle"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup2",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup2",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleX2",
+			"GroupId": "ParamGroup2",
+			"Name": "Drag Angle X"
+		},
+		{
+			"Id": "ParamAngleY2",
+			"GroupId": "ParamGroup2",
+			"Name": "Drag Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup2",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup2",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup2",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup2",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup2",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup2",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup2",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "ParamGroup2",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroup2",
+			"Name": "Breath"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup3",
+			"Name": "Er"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup3",
+			"Name": "Er"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "ParamGroup3",
+			"Name": "El"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "ParamGroup3",
+			"Name": "El"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "ParamGroup6",
+			"Name": "Y"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "ParamGroup6",
+			"Name": "Y"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "ParamGroup6",
+			"Name": "Y"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "ParamGroup6",
+			"Name": "Y"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "ParamGroup7",
+			"Name": "Z"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "ParamGroup7",
+			"Name": "Z"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "ParamGroup7",
+			"Name": "Z"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "ParamGroup4",
+			"Name": "R"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "ParamGroup4",
+			"Name": "R"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "ParamGroup4",
+			"Name": "R"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "ParamGroup4",
+			"Name": "R"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "ParamGroup5",
+			"Name": "L"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "ParamGroup5",
+			"Name": "L"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "ParamGroup5",
+			"Name": "L"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "ParamGroup5",
+			"Name": "L"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[0]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[1]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[2]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[3]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[4]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[5]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[6]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[7]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[8]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[9]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[10]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[11]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[12]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_14_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[13]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ArtMesh66",
+			"GroupId": "ParamGroup8",
+			"Name": "[14]Layer 21"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ArtMesh67",
+			"GroupId": "ParamGroup8",
+			"Name": "A1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ArtMesh68",
+			"GroupId": "ParamGroup8",
+			"Name": "A1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ArtMesh69",
+			"GroupId": "ParamGroup8",
+			"Name": "A1"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "Folder 1"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "Folder 2"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "E"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "Y"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "X"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "R ↑"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "L ↑"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "Layer 21"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "B2",
+			"Name": "B2"
+		},
+		{
+			"Id": "Of",
+			"Name": "Of"
+		},
+		{
+			"Id": "A",
+			"Name": "A"
+		},
+		{
+			"Id": "B",
+			"Name": "B"
+		},
+		{
+			"Id": "Part",
+			"Name": "Folder 2"
+		},
+		{
+			"Id": "E",
+			"Name": "E"
+		},
+		{
+			"Id": "E2",
+			"Name": "E"
+		},
+		{
+			"Id": "M",
+			"Name": "M"
+		},
+		{
+			"Id": "Part4",
+			"Name": "Face"
+		},
+		{
+			"Id": "ArtMesh66_Skinning",
+			"Name": "Layer 21(Skinning)"
+		},
+		{
+			"Id": "Part9",
+			"Name": "Layer 21(Rotation)"
+		},
+		{
+			"Id": "Part2",
+			"Name": "Folder 4 2"
+		},
+		{
+			"Id": "Part3",
+			"Name": "Folder 4"
+		},
+		{
+			"Id": "Part8",
+			"Name": "Ex3"
+		},
+		{
+			"Id": "Part6",
+			"Name": "Ex"
+		},
+		{
+			"Id": "Part7",
+			"Name": "Ex2"
+		},
+		{
+			"Id": "Part5",
+			"Name": "Ex1"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamAngleX2",
+			"ParamAngleY2"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		],
+		[
+			"Param2",
+			"Param3"
+		],
+		[
+			"Param4",
+			"Param5"
+		],
+		[
+			"Param7",
+			"Param8"
+		]
+	]
+}
