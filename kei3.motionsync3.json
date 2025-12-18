@@ -5,7 +5,7 @@
         "Dictionary": [
             {
                 "Id": "MotionSyncSetting3",
-                "Name": "Realistic_Fluent_Speak"
+                "Name": "Realistic_Width_Cheek_Physics"
             }
         ]
     },
@@ -20,48 +20,48 @@
                     "Id": "ParamMouthOpenY",
                     "Min": 0.0,
                     "Max": 1.0,
-                    "Damper": 0.04, 
-                    "Smooth": 10
+                    "Damper": 0.04,
+                    "Smooth": 12
                 },
                 {
-                    "Name": "A",
+                    "Name": "Shape_A_General",
                     "Id": "ParamA",
                     "Min": 0.0,
                     "Max": 1.0,
                     "Damper": 0.05,
-                    "Smooth": 5
+                    "Smooth": 8
                 },
                 {
-                    "Name": "I",
+                    "Name": "Shape_I_Wide", 
                     "Id": "ParamI",
                     "Min": 0.0,
                     "Max": 1.0,
                     "Damper": 0.05,
-                    "Smooth": 5
+                    "Smooth": 8
                 },
                 {
-                    "Name": "U",
+                    "Name": "Shape_U_Narrow",
                     "Id": "ParamU",
                     "Min": 0.0,
                     "Max": 1.0,
                     "Damper": 0.05,
-                    "Smooth": 5
+                    "Smooth": 8
                 },
                 {
-                    "Name": "E",
+                    "Name": "Shape_E_Stretch",
                     "Id": "ParamE",
                     "Min": 0.0,
                     "Max": 1.0,
                     "Damper": 0.05,
-                    "Smooth": 5
+                    "Smooth": 8
                 },
                 {
-                    "Name": "O",
+                    "Name": "Shape_O_Round",
                     "Id": "ParamO",
                     "Min": 0.0,
                     "Max": 1.0,
                     "Damper": 0.05,
-                    "Smooth": 5
+                    "Smooth": 8
                 }
             ],
             "AudioParameters": [
@@ -76,41 +76,41 @@
                 {
                     "Name": "A",
                     "Id": "A",
-                    "Min": 0.05,
-                    "Max": 1.0,
-                    "Scale": 2.2,
-                    "Enabled": true
-                },
-                {
-                    "Name": "I",
-                    "Id": "I",
-                    "Min": 0.05,
-                    "Max": 1.0,
-                    "Scale": 3.0,
-                    "Enabled": true
-                },
-                {
-                    "Name": "U",
-                    "Id": "U",
-                    "Min": 0.05,
-                    "Max": 1.0,
-                    "Scale": 2.8,
-                    "Enabled": true
-                },
-                {
-                    "Name": "E",
-                    "Id": "E",
-                    "Min": 0.05,
+                    "Min": 0.02,
                     "Max": 1.0,
                     "Scale": 2.5,
                     "Enabled": true
                 },
                 {
+                    "Name": "I",
+                    "Id": "I",
+                    "Min": 0.02,
+                    "Max": 1.0,
+                    "Scale": 3.5,
+                    "Enabled": true
+                },
+                {
+                    "Name": "U",
+                    "Id": "U",
+                    "Min": 0.02,
+                    "Max": 1.0,
+                    "Scale": 3.0,
+                    "Enabled": true
+                },
+                {
+                    "Name": "E",
+                    "Id": "E",
+                    "Min": 0.02,
+                    "Max": 1.0,
+                    "Scale": 3.2,
+                    "Enabled": true
+                },
+                {
                     "Name": "O",
                     "Id": "O",
-                    "Min": 0.05,
+                    "Min": 0.02,
                     "Max": 1.0,
-                    "Scale": 2.8,
+                    "Scale": 3.0,
                     "Enabled": true
                 }
             ],
@@ -119,9 +119,9 @@
                     "Type": "Shape",
                     "Id": "Silence",
                     "Targets": [
-                        { "Id": "ParamMouthOpenY", "Value": 0.0 }, 
+                        { "Id": "ParamMouthOpenY", "Value": 0.0 },
                         { "Id": "ParamA", "Value": 0.0 },
-                        { "Id": "ParamI", "Value": 0.0 },
+                        { "Id": "ParamI", "Value": 0.0 }, 
                         { "Id": "ParamU", "Value": 0.0 },
                         { "Id": "ParamE", "Value": 0.0 },
                         { "Id": "ParamO", "Value": 0.0 }
@@ -131,23 +131,23 @@
                     "Type": "Shape",
                     "Id": "A",
                     "Targets": [
-                        { "Id": "ParamMouthOpenY", "Value": 1.0 },
-                        { "Id": "ParamA", "Value": 0.8 },
-                        { "Id": "ParamI", "Value": 0.0 },
+                        { "Id": "ParamMouthOpenY", "Value": 1.0 }, 
+                        { "Id": "ParamA", "Value": 1.0 },
+                        { "Id": "ParamI", "Value": 0.2 }, 
                         { "Id": "ParamU", "Value": 0.0 },
-                        { "Id": "ParamE", "Value": 0.2 }, 
-                        { "Id": "ParamO", "Value": 0.2 }
+                        { "Id": "ParamE", "Value": 0.0 },
+                        { "Id": "ParamO", "Value": 0.0 }
                     ]
                 },
                 {
                     "Type": "Shape",
                     "Id": "I",
                     "Targets": [
-                        { "Id": "ParamMouthOpenY", "Value": 0.2 },
-                        { "Id": "ParamA", "Value": 0.1 },
-                        { "Id": "ParamI", "Value": 0.8 },
+                        { "Id": "ParamMouthOpenY", "Value": 0.3 },
+                        { "Id": "ParamA", "Value": 0.0 },
+                        { "Id": "ParamI", "Value": 1.0 }, 
                         { "Id": "ParamU", "Value": 0.0 },
-                        { "Id": "ParamE", "Value": 0.3 }, 
+                        { "Id": "ParamE", "Value": 0.3 },
                         { "Id": "ParamO", "Value": 0.0 }
                     ]
                 },
@@ -158,9 +158,9 @@
                         { "Id": "ParamMouthOpenY", "Value": 0.4 },
                         { "Id": "ParamA", "Value": 0.0 },
                         { "Id": "ParamI", "Value": 0.0 },
-                        { "Id": "ParamU", "Value": 0.9 },
+                        { "Id": "ParamU", "Value": 1.0 }, 
                         { "Id": "ParamE", "Value": 0.0 },
-                        { "Id": "ParamO", "Value": 0.3 }
+                        { "Id": "ParamO", "Value": 0.0 }
                     ]
                 },
                 {
@@ -168,10 +168,10 @@
                     "Id": "E",
                     "Targets": [
                         { "Id": "ParamMouthOpenY", "Value": 0.5 },
-                        { "Id": "ParamA", "Value": 0.3 },
-                        { "Id": "ParamI", "Value": 0.2 },
+                        { "Id": "ParamA", "Value": 0.2 },
+                        { "Id": "ParamI", "Value": 0.6 }, 
                         { "Id": "ParamU", "Value": 0.0 },
-                        { "Id": "ParamE", "Value": 0.8 }, 
+                        { "Id": "ParamE", "Value": 0.9 },
                         { "Id": "ParamO", "Value": 0.0 }
                     ]
                 },
@@ -179,18 +179,18 @@
                     "Type": "Shape",
                     "Id": "O",
                     "Targets": [
-                        { "Id": "ParamMouthOpenY", "Value": 0.8 },
-                        { "Id": "ParamA", "Value": 0.1 },
+                        { "Id": "ParamMouthOpenY", "Value": 0.9 },
+                        { "Id": "ParamA", "Value": 0.3 },
                         { "Id": "ParamI", "Value": 0.0 },
-                        { "Id": "ParamU", "Value": 0.2 },
+                        { "Id": "ParamU", "Value": 0.4 }, 
                         { "Id": "ParamE", "Value": 0.0 },
-                        { "Id": "ParamO", "Value": 0.9 }
+                        { "Id": "ParamO", "Value": 1.0 }
                     ]
                 }
             ],
             "PostProcessing": {
-                "BlendRatio": 0.85, 
-                "Smoothing": 8,
+                "BlendRatio": 0.90,
+                "Smoothing": 10,
                 "SampleRate": 60.0
             }
         }
