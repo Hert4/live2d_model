@@ -3,7 +3,7 @@
 	"FileReferences": {
 		"Moc": "kei_vowels_pro.moc3",
 		"Textures": [
-			"kei_vowels_pro.2048/texture_00_v2.png"
+			"kei_vowels_pro.2048/texture_03.png"
 		],
 		"Physics": "kei_vowels_pro.physics3.json",
 		"DisplayInfo": "kei_vowels_pro.cdi3.json",
